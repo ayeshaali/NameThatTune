@@ -3,7 +3,7 @@
 A Java program that randomly generates a 2 to 4 minute song by choosing a scale, generating a chorus and verse, and choosing a song structure.
 
 ## Strategy to Generate Music:
-	1. choose a major scale 
+	1. Choose a major scale 
 	2. Randomly shuffle scale and choose three random pitches to form three major chords
 		a. one chorus repeats these three chords once more, making the chorus 6 chords long
 		b. the duration of each chord is randomnly chosen between 1 and 4
@@ -22,4 +22,4 @@ A Java program that randomly generates a 2 to 4 minute song by choosing a scale,
 			i. the second circle is just a border around the first 
 		b. the color is also determined by the pitch, which is scaled between 1 and 10 to fit the range of predetermined colors
 		c. the circle stays on the screen for the duration that corresponds to the pitch being visualized and then an animation makes the circle bigger or smaller to move onto the next pitch.
-  4. The only time this pattern is deviated from is when a rest is approaching. Then the radius goes to 0.00001 and the circle becomes black. 
+ 	4. The only time this pattern is deviated from is when a rest is approaching. Then the radius goes to 0.00001 and the circle becomes black. 
