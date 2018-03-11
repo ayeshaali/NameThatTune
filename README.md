@@ -2,7 +2,7 @@
 
 A Java program that randomly generates a 2 to 4 minute song by choosing a scale, generating a chorus and verse, and choosing a song structure.
 
-##Strategy to Generate Music:
+## Strategy to Generate Music:
 	1. choose a major scale 
 	2. Randomly shuffle scale and choose three random pitches to form three major chords
 		a. one chorus repeats these three chords once more, making the chorus 6 chords long
@@ -14,7 +14,7 @@ A Java program that randomly generates a 2 to 4 minute song by choosing a scale,
 	4. With the chorus and verse made, a random structure is generated and the chorus and verse pattern is concatenated to form the song.
 	5. Fade in and fade out are implemented on to the song for 3 seconds each.
 	
-##Strategy to Generate Visualization:
+## Strategy to Generate Visualization:
 	1. The pitches and durations of the chorus and the note array is recorded in their own arrays
 	2. When the structure is determined, these arrays are concatenated to form an array of all the pitches and all the durations 
 	3. To draw these pitches, two circles are drawn 
