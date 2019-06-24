@@ -1,5 +1,5 @@
 # NameThatTune
-
+#### A Trinity Adv. Computer Science Project
 A Java program that randomly generates a 2 to 4 minute song by choosing a scale, generating a chorus and verse, and choosing a song structure.
 
 ## Strategy to Generate Music:
