@@ -19,7 +19,7 @@ A Java program that randomly generates a 2 to 4 minute song by choosing a scale,
 	2. When the structure is determined, these arrays are concatenated to form an array of all the pitches and all the durations 
 	3. To draw these pitches, two circles are drawn 
 		a. the radius of the circle is determined by the pitch, which is scaled to fit between .1 and .2
-			i. the second circle is just a border around the first 
+			i. the second circle is just a border around the first circle
 		b. the color is also determined by the pitch, which is scaled between 1 and 10 to fit the range of predetermined colors
 		c. the circle stays on the screen for the duration that corresponds to the pitch being visualized and then an animation makes the circle bigger or smaller to move onto the next pitch.
  	4. The only time this pattern is deviated from is when a rest is approaching. Then the radius goes to 0.00001 and the circle becomes black. 
